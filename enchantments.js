@@ -40,3 +40,16 @@ function discardTopCard(deck) {
 }
 
 // console.log(discardTopCard(deck));
+
+///---///
+
+// const FACE_CARDS = ["jack", "queen", "king"];
+
+// const deck = [5, 4, 7, 10];
+
+function insertFaceCards(deck) {
+  const [firstCard, ...nextCards] = deck;
+  return [firstCard, ...FACE_CARDS, ...nextCards];
+}
+
+// console.log(insertFaceCards(deck));
