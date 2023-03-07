@@ -29,3 +29,14 @@ function swapTopTwoCards(deck) {
   return deck;
 }
 // console.log(swapTopTwoCards(deck));
+
+///---///
+
+// const deck = [2, 5, 4, 9, 3];
+
+function discardTopCard(deck) {
+  const [firstCard, ...rest] = deck;
+  return [firstCard, [...rest]];
+}
+
+// console.log(discardTopCard(deck));
