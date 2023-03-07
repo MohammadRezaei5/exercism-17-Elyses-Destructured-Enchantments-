@@ -8,3 +8,14 @@ function getFirstCard(deck) {
 }
 
 // console.log(getFirstCard(deck));
+
+///---///
+
+// const deck = [3, 2, 10, 6, 7];
+
+function getSecondCard(deck) {
+  const [, secondCard, , ,] = deck;
+  return secondCard;
+}
+
+// console.log(getSecondCard(deck));
