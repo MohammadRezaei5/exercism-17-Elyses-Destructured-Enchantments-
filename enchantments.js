@@ -19,3 +19,13 @@ function getSecondCard(deck) {
 }
 
 // console.log(getSecondCard(deck));
+
+///---///
+
+// const deck = [10, 7, 3, 8, 5];
+
+function swapTopTwoCards(deck) {
+  [deck[1], deck[0]] = [deck[0], deck[1]];
+  return deck;
+}
+// console.log(swapTopTwoCards(deck));
